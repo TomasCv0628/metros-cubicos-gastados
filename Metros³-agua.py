@@ -1,7 +1,15 @@
 # Calcular el gasto de agua de una vivienda dado el numero en metros cubicos gastados, siendo
 # el sistema del cobro el suigiente:
 
-X = int(input("Inserte metros cubicos consumidos: "))
+print("\n⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜")
+print("⚜⚜⚜⚜⚜⚜⚜ Valor de la cantidad ⚜⚜⚜⚜⚜⚜⚜⚜")
+print("⚜⚜⚜⚜⚜⚜⚜⚜⚜mde metros cubicos ⚜⚜⚜⚜⚜⚜⚜⚜⚜")
+print("⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜ consumidos ⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜")
+print("⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜")
+print("⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜⚜\n")
+
+
+X = int(input("\nInserte metros cubicos consumidos: "))
 
 if X <= 50:
     print("\nEl gasto del agua es igual a $10.000")
