@@ -16,6 +16,6 @@ if X <= 50:
 elif X <= 200:
     print(f"\nEl gasto de agua es igual a ${10000+(X-50)*2000}")
 elif X > 200:
-    print(f"\nEL gasto de agua es igual a ${10000+(X-50)*3000}")
+    print(f"\nEL gasto de agua es igual a ${10000+(150)*2000 + (X-200)*3000}")
 else:
     print("\nEl gasto de agua es igual a $0")
